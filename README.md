@@ -1,8 +1,4 @@
-# React + Vite
+# Xeno AI ChatBot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Xeno AI ChatBot is an interactive chatbot application powered by the ChatGPT API. This project allows users to engage in natural language conversations with an AI, providing responses based on the context of the conversation.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
