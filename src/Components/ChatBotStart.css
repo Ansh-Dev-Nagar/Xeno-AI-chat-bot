@@ -1,0 +1,25 @@
+.start-page {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131927; 
+}
+
+.start-page-btn {
+    width: 30rem;
+    height: 10rem;
+    padding: 10px 20px;
+    font-size: 4rem; 
+    background: linear-gradient(135deg,#f42f5f,#8e25b5); 
+    color: white;
+    border: none;
+    border-radius: 95px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.start-page-btn:active{
+    transform: scale(.98);
+}
