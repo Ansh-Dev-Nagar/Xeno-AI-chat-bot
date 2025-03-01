@@ -1,10 +1,12 @@
 import React from 'react';
 import ChatBotStart from './Components/ChatBotStart'
+import ChatBotApp from './Components/ChatBotApp'
 
 const App = () => {
   return (
     <div>
-      <ChatBotStart/>
+     {/* <ChatBotStart/> */ }
+     <ChatBotApp/>
     </div>
   );
 };
