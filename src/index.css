@@ -4,3 +4,12 @@ html, body {
     font-size: 62.5%;
 }
 
+
+body {
+    height: 100vh;
+    background-color: #131927;
+    color: white;
+}
+
+
+
