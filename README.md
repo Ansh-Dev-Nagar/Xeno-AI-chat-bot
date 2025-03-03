@@ -1,77 +1,97 @@
-# XENO AI - ChatGPT-Powered Chatbot
+# XENO AI - Modern AI Chat Assistant
 
-A sleek, modern chatbot application that uses OpenAI's ChatGPT API to provide intelligent responses.
+A sophisticated chat application built with React and powered by Hugging Face's Zephyr model. This project demonstrates the implementation of a modern AI chat interface with focus on user experience and clean design.
 
-## Features
+## Project Overview
 
-- Multiple chat sessions
-- Real-time conversation with ChatGPT
-- Modern, responsive UI
-- Session management
-- Typing indicators
+XENO AI is developed to showcase the integration of large language models in a real-time chat environment. The application features a responsive design with a dark theme, focusing on both functionality and aesthetic appeal.
 
-## Setup Instructions
+## Screenshots
 
-### Prerequisites
+### Welcome Screen
+![Start Page](screenshots/landing%20page.png)
+*Modern landing page with gradient design and welcome message*
 
-- Node.js (v14 or higher)
-- npm or yarn
-- OpenAI API key
+### Chat Interface
+![Chat Interface](screenshots/chat%20page.png)
+*Main chat interface showcasing real-time AI conversation*
 
-### Installation
+## Core Features
+
+### Current Implementation
+* Real-time AI chat integration using Zephyr model
+* Multi-session management with separate chat contexts
+* Responsive design with dark theme optimization
+* Automatic demo mode fallback
+* Real-time typing indicators
+* Modern gradient UI elements
+* Error handling and recovery
+
+### Planned Enhancements
+* Enhanced session management
+  - Chat renaming capability
+  - Session export functionality
+  - Chat history persistence
+* Advanced UI features
+  - Theme customization
+  - Chat search functionality
+  - Message formatting options
+* Progressive Web App (PWA) implementation
+
+## Technical Stack
+
+* Frontend: React + Vite
+* AI Integration: Hugging Face's Zephyr model
+* Styling: Custom CSS with animations
+* JavaScript: ES6+ standards
+
+## Setup Guide
 
 1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd xeno-ai
-   ```
+```bash
+git clone [your-repo-url]
+cd xeno-ai
+```
 
 2. Install dependencies:
-   ```
-   npm install
-   ```
-   or
-   ```
-   yarn install
-   ```
+```bash
+npm install
+```
 
-3. Set up your OpenAI API key:
-   - Rename `.env.example` to `.env` (or create a new `.env` file)
-   - Add your OpenAI API key to the `.env` file:
-     ```
-     REACT_APP_OPENAI_API_KEY=your_openai_api_key_here
-     ```
+3. Configure API access:
+```javascript
 
-4. Start the development server:
-   ```
-   npm start
-   ```
-   or
-   ```
-   yarn start
-   ```
+HUGGING_FACE_API_KEY: "your-api-key-here"
+```
 
-5. Open your browser and navigate to `http://localhost:3000`
+4. Launch development server:
+```bash
+npm run dev
+```
 
-## Usage
+## Development Notes
 
-- Click the edit icon in the chat list header to create a new chat
-- Type your message in the input field and press Enter or click Send
-- Click on a chat in the list to switch between conversations
-- Click the X icon to delete a chat
+### API Configuration
+The application requires a Hugging Face API key for full functionality. Without a valid API key, the system automatically operates in demo mode with pre-defined responses.
 
-## Dependencies
+### Best Practices
+* Keep API keys secure and never commit them to version control
+* Test in both API and demo modes before deployment
+* Follow the established code style and documentation patterns
 
-- React
-- OpenAI API
+## Contributing
 
-## Notes
+Contributions are welcome. Please follow these steps:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request with detailed description
+4. Ensure all tests pass
 
-- This application requires an active internet connection to communicate with the OpenAI API
-- API usage may incur costs depending on your OpenAI plan
-- Make sure to keep your API key secure and never commit it to version control
+## Contact
 
-## License
+For inquiries or collaboration opportunities, please reach out through:
+anshdevnagar@gmail.com
 
-MIT
+---
+Developed by Ansh Dev Nagar
 
