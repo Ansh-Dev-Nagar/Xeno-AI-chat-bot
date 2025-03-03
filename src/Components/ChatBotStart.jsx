@@ -1,12 +1,19 @@
-import React from 'react'
-import './ChatBotStart.css'
+import React from 'react';
+import './ChatBotStart.css';
 
-const ChatBotStart = () => {
+const ChatBotStart = ({ onStartClick }) => {
   return (
-    <div className='start-page'>
-      <button className="start-page-btn">Start Xeno</button>
+    <div className="start-page">
+      <div className="start-content">
+        <h1>Welcome to XENO AI</h1>
+        <p>Your intelligent conversation partner</p>
+        <button className="start-button" onClick={onStartClick}>
+          <i className='bx bx-message-square-dots'></i>
+          Start Chatting
+        </button>
+      </div>
     </div>
-  )
-}
-export default ChatBotStart;
+  );
+};
 
+export default ChatBotStart; 
